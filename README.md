@@ -1,16 +1,80 @@
-# keystrokedynamics
+# 📱 Keystroke Dynamics Mobile Application
 
-A new Flutter project.
+A cross-platform Flutter mobile application implementing **Keystroke Dynamics** as a behavioral biometric authentication mechanism.
 
-## Getting Started
+This project was developed as part of a thesis on behavioral biometrics and continuous authentication.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🧠 Project Overview
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+This application captures and analyzes user typing behavior in order to authenticate users based on **how they type**, rather than just what they type.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The system works in combination with a Flask backend server that performs:
+
+- Keystroke data processing
+- Feature extraction
+- Machine learning model training
+- Identity verification
+
+⚠️ The mobile application **requires the Flask backend server** to run.
+
+Backend Repository:
+👉 https://github.com/SotirisSid/Flask_server
+
+---
+
+## 🚀 Features
+
+- User Registration
+- User Login
+- Keystroke Dynamics Training Mode
+- Behavioral Biometric Data Collection
+- Password Typing Pattern Capture
+- REST API Communication with Flask Backend
+- Cross-platform Support:
+  - Android
+  - iOS
+  - Web
+  - Windows
+  - macOS
+  - Linux
+
+---
+
+## 📊 Collected Keystroke Features
+
+The application captures:
+
+- Key press timestamps
+- Key release timestamps
+- Hold time (key press duration)
+- Flight time (time between consecutive key presses)
+- Typing rhythm patterns
+
+These features are used for behavioral biometric authentication.
+
+---
+
+## 🛠 Tech Stack
+
+### Mobile Application
+- Flutter
+- Dart
+- REST API communication
+- Secure storage
+
+### Backend (Required)
+- Python
+- Flask
+- Machine Learning libraries (see backend repository)
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Mobile App Repository
+
+```bash
+git clone https://github.com/SotirisSid/Keystroke__dynamics_ipa.git
+cd Keystroke__dynamics_ipa
