@@ -76,5 +76,7 @@ These features are used for behavioral biometric authentication.
 ### 1️⃣ Clone the Mobile App Repository
 
 ```bash
-git clone https://github.com/SotirisSid/Keystroke__dynamics_ipa.git
-cd Keystroke__dynamics_ipa
+git clone https://github.com/SotirisSid/Keystroke__dynamics_mobile__app
+.git
+cd Keystroke__dynamics_mobile__app
+
