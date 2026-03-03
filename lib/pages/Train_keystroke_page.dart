@@ -221,6 +221,7 @@ class _TrainKeystrokePageState extends State<TrainKeystrokePage> {
 
     // Prepare data to send to the server
     final data = {
+      'USERNAME': widget.userName,
       'userName': rawusername,
       'password': rawPassword,
       'key_press_times': _keyPressTimes,
